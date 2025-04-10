@@ -1,0 +1,60 @@
+{
+    // Disable the minimap
+    "editor.minimap.enabled": false,
+    // Render whitespace when a portion of text is selected
+    "editor.renderWhitespace": "selection",
+    // Only show line highlight in gutter
+    "editor.renderLineHighlight": "gutter",
+    // Disable glyph margin
+    "editor.glyphMargin": false,
+    // Font settings
+    "editor.fontFamily": "'Jetbrains Mono', 'monospace', monospace",
+    "editor.fontSize": 15,
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    // Caret/cursor settings
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    // Line height
+    "editor.lineHeight": 25,
+    // Disable guides for bracket pairs
+    "editor.guides.bracketPairs": false,
+    // Disable breadcrumbs
+    "breadcrumbs.enabled": false,
+    // Set menu bar to toggle
+    "window.menuBarVisibility": "toggle",
+    // Set window title settings
+    "window.title": "${dirty}${activeEditorShort}",
+    // Set title bar style - sets correct gtk theme style in Gnome
+    "window.titleBarStyle": "native",
+    // Disable custom title bar
+    "window.customTitleBarVisibility": "never",
+    // Set color theme
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    // Set indent guides to onHover
+    "workbench.tree.renderIndentGuides": "onHover",
+    // Enable smooth scrolling
+    "editor.smoothScrolling": true,
+    // Open untrusted files
+    "security.workspace.trust.untrustedFiles": "open",
+    // Language specific settings
+    "[html]":{
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[css]":{
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+    },
+    "[javascript]":{
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    // Use spaces instead of tabs
+    "editor.insertSpaces": true,
+    // Set icon theme
+    "workbench.iconTheme": "vscode-icons",
+    // Use Prettier extension for formatting all languages by default
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

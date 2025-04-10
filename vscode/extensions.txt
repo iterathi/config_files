@@ -1,0 +1,8 @@
+esbenp.prettier-vscode
+formulahendry.auto-close-tag
+monokai.theme-monokai-pro-vscode
+ms-python.debugpy
+ms-python.python
+ms-python.vscode-pylance
+streetsidesoftware.code-spell-checker
+vscode-icons-team.vscode-icons
