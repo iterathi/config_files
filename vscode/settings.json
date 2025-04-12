@@ -21,8 +21,6 @@
     "editor.guides.bracketPairs": false,
     // Disable breadcrumbs
     "breadcrumbs.enabled": false,
-    // Set menu bar to toggle
-    "window.menuBarVisibility": "toggle",
     // Set window title settings
     "window.title": "${dirty}${activeEditorShort}",
     // Set title bar style - sets correct gtk theme style in Gnome
@@ -30,7 +28,7 @@
     // Disable custom title bar
     "window.customTitleBarVisibility": "never",
     // Set color theme
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.colorTheme": "Nord",
     // Set indent guides to onHover
     "workbench.tree.renderIndentGuides": "onHover",
     // Enable smooth scrolling
@@ -54,7 +52,8 @@
     // Use spaces instead of tabs
     "editor.insertSpaces": true,
     // Set icon theme
-    "workbench.iconTheme": "vscode-icons",
+    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     // Use Prettier extension for formatting all languages by default
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "window.menuBarVisibility": "toggle"
 }
