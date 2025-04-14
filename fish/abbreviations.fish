@@ -1,8 +1,8 @@
 # open Hyprland config file
-abbr --add hyprconfig nano '~/.config/hypr/hyprland.conf'
+abbr --add hyprconfig micro '~/.config/hypr/hyprland.conf'
 
 # open Hyprland keybindings config file
-abbr --add hyprkeys nano '~/.config/hypr/keybindings.conf'
+abbr --add hyprkeys micro '~/.config/hypr/keybindings.conf'
 
 # open kitty config file
-abbr --add kittyconfig nano '~/.config/kitty/kitty.conf'
+abbr --add kittyconfig micro '~/.config/kitty/kitty.conf'
