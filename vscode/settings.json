@@ -28,7 +28,7 @@
     // Disable custom title bar
     "window.customTitleBarVisibility": "never",
     // Set color theme
-    "workbench.colorTheme": "Nord",
+    "workbench.colorTheme": "Tokyo Night",
     // Set indent guides to onHover
     "workbench.tree.renderIndentGuides": "onHover",
     // Enable smooth scrolling
