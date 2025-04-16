@@ -1,5 +1,7 @@
 {
-    "colorscheme": "nord-16",
-    "tabsize": 4,
+    "colorcolumn": 80,
+    "colorscheme": "tokyonight",
+    "cursorline": false,
+    "diffgutter": true,
     "tabstospaces": true
 }
