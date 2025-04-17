@@ -11,6 +11,6 @@ source /usr/share/cachyos-zsh-config/cachyos-config.zsh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # aliases
-alias hyprconfig="micro ~/.config/hypr/hyprland.conf"
-alias hyprkeys="micro ~/.config/hypr/keybindings.conf"
-alias kittyconfig="micro ~/.config/kitty/kitty.conf"
+alias hyprconfig="nvim ~/.config/hypr/hyprland.conf"
+alias hyprkeys="nvim ~/.config/hypr/keybindings.conf"
+alias kittyconfig="nvim ~/.config/kitty/kitty.conf"

@@ -26,13 +26,16 @@
     // Set title bar style - sets correct gtk theme style in Gnome
     "window.titleBarStyle": "native",
     // Disable custom title bar
-    "window.customTitleBarVisibility": "never",
+    "window.customTitleBarVisibility": "auto",
     // Set color theme
     "workbench.colorTheme": "Tokyo Night",
     // Set indent guides to onHover
-    "workbench.tree.renderIndentGuides": "onHover",
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.guides.indentation": false,
     // Enable smooth scrolling
     "editor.smoothScrolling": true,
+    // Disable code folding
+    "editor.folding": false,
     // Open untrusted files
     "security.workspace.trust.untrustedFiles": "open",
     // Language specific settings
@@ -49,11 +52,15 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
+    "[lua]":{
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
     // Use spaces instead of tabs
     "editor.insertSpaces": true,
-    // Set icon theme
-    "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
     // Use Prettier extension for formatting all languages by default
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "window.menuBarVisibility": "toggle"
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "top"
 }
