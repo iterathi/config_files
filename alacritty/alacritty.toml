@@ -10,8 +10,8 @@ opacity = 0.95
 decorations_theme_variant = "Dark"
 
 [window.dimensions]
-columns = 110
-lines = 25
+columns = 125
+lines = 35
 
 [window.class]
 instance = "Alacritty"
@@ -22,36 +22,38 @@ history = 10000
 multiplier = 3
 
 [colors]
-draw_bold_text_with_bright_colors = true
+draw_bold_text_with_bright_colors = false
 
 # CUSTOM COLOR THEME - Monokai Pro
 # https://github.com/alacritty/alacritty-theme/blob/master/themes/monokai_pro.toml
+# Colors (Solarized Light)
+
 # Default colors
 [colors.primary]
-background = '#2D2A2E'
-foreground = '#fff1f3'
+background = '#fdf6e3'
+foreground = '#586e75'
 
 # Normal colors
 [colors.normal]
-black   = '#2c2525'
-red     = '#fd6883'
-green   = '#adda78'
-yellow  = '#f9cc6c'
-blue    = '#f38d70'
-magenta = '#a8a9eb'
-cyan    = '#85dacc'
-white   = '#fff1f3'
+black   = '#073642'
+red     = '#dc322f'
+green   = '#859900'
+yellow  = '#b58900'
+blue    = '#268bd2'
+magenta = '#d33682'
+cyan    = '#2aa198'
+white   = '#eee8d5'
 
 # Bright colors
 [colors.bright]
-black   = '#72696a'
-red     = '#fd6883'
-green   = '#adda78'
-yellow  = '#f9cc6c'
-blue    = '#f38d70'
-magenta = '#a8a9eb'
-cyan    = '#85dacc'
-white   = '#fff1f3'
+black   = '#002b36'
+red     = '#cb4b16'
+green   = '#586e75'
+yellow  = '#657b83'
+blue    = '#839496'
+magenta = '#6c71c4'
+cyan    = '#93a1a1'
+white   = '#fdf6e3'
 
 [font]
 size = 11

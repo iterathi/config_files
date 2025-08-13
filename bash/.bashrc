@@ -8,6 +8,3 @@
 alias ls='ls -A --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
-
-# enable starship
-eval "$(starship init bash)"
