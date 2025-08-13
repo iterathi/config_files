@@ -72,12 +72,6 @@ alias update="sudo pacman -Syu"
 alias yupdate="yay -Syu"
 alias ls="ls -A --color=auto"
 
-# Help people new to Arch
-alias apt="man pacman"
-alias apt-get="man pacman"
-alias please="sudo"
-alias tb="nc termbin.com 9999"
-
 # Cleanup orphaned packages
 alias cleanup="sudo pacman -Rsn $(pacman -Qtdq)"
 
