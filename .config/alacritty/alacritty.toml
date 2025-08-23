@@ -11,7 +11,7 @@ decorations_theme_variant = "Dark"
 
 [window.dimensions]
 columns = 125
-lines = 35
+lines = 25
 
 [window.class]
 instance = "Alacritty"
@@ -24,47 +24,53 @@ multiplier = 3
 [colors]
 draw_bold_text_with_bright_colors = false
 
+# Colors (Tokyo Night)
+# Source https//github.com/zatchheems/tokyo-night-alacritty-theme
+
+# Default colors
 [colors.primary]
-background = "#272822"
-foreground = "#f8f8f2"
+background = '#1a1b26'
+foreground = '#a9b1d6'
 
+# Normal colors
 [colors.normal]
-black = "#272822"
-red = "#f92672"
-green = "#a6e22e"
-yellow = "#f4bf75"
-blue = "#66d9ef"
-magenta = "#ae81ff"
-cyan = "#a1efe4"
-white = "#f8f8f2"
+black   = '#32344a'
+red     = '#f7768e'
+green   = '#9ece6a'
+yellow  = '#e0af68'
+blue    = '#7aa2f7'
+magenta = '#ad8ee6'
+cyan    = '#449dab'
+white   = '#787c99'
 
+# Bright colors
 [colors.bright]
-black = "#75715e"
-red = "#f92672"
-green = "#a6e22e"
-yellow = "#f4bf75"
-blue = "#66d9ef"
-magenta = "#ae81ff"
-cyan = "#a1efe4"
-white = "#f9f8f5"
+black   = '#444b6a'
+red     = '#ff7a93'
+green   = '#b9f27c'
+yellow  = '#ff9e64'
+blue    = '#7da6ff'
+magenta = '#bb9af7'
+cyan    = '#0db9d7'
+white   = '#acb0d0'
 
 [font]
 size = 11
 
 [font.normal]
-family = "JetBrainsMono Nerd Font"
-style = "Regular"
+family = "RobotoMono Nerd Font Mono"
+style = "Medium"
 
 [font.bold]
-family = "JetBrainsMono Nerd Font"
+family = "RobotoMono Nerd Font Mono"
 style = "Bold"
 
 [font.italic]
-family = "JetBrainsMono Nerd Font"
+family = "RobotoMono Nerd Font Mono"
 style = "Italic"
 
 [font.bold_italic]
-family = "JetBrainsMono Nerd Font"
+family = "RobotoMono Nerd Font Mono"
 style = "Bold Italic"
 
 [selection]
