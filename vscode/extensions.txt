@@ -1,7 +1,7 @@
-enkia.tokyo-night
 esbenp.prettier-vscode
 formulahendry.auto-close-tag
+monokai.theme-monokai-pro-vscode
 ms-python.debugpy
 ms-python.python
-ms-python.vscode-pylance
 vscode-icons-team.vscode-icons
+wayou.vscode-todo-highlight

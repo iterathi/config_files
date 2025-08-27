@@ -8,8 +8,10 @@
     // Disable glyph margin
     //"editor.glyphMargin": false,
     // Font settings
-    "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
-    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+    //"editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+    //"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.fontFamily": "'RobotoMono Nerd Font Mono', 'monospace'",
+    "terminal.integrated.fontFamily": "'RobotoMono Nerd Font Mono'",
     "editor.fontSize": 14,
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,

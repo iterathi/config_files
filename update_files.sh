@@ -5,7 +5,7 @@ if [ ! -f ~/.Xresources ]; then
     # cp ~/.Xresources ./home/
     echo ".Xresources: not found, skipping"
 else
-    echo ".Xresources: copying"
+    echo "Xresources: copying .Xresources"
     mkdir -p ./home/Xresources
     cp ~/.Xresources ./home/Xresources/.Xresources
 fi
@@ -14,7 +14,7 @@ fi
 if [ ! -f ~/.bashrc ]; then
     echo ".bashrc: not found, skipping"
 else
-    echo ".bashrc: copying"
+    echo "bash: copying .bashrc"
     mkdir -p ./home/bash
     cp ~/.bashrc ./home/bash/.bashrc
 fi
@@ -23,7 +23,7 @@ fi
 if [ ! -f ~/.zshrc ]; then
     echo ".zshrc: not found, skipping"
 else
-    echo ".zshrc: copying"
+    echo "zsh: copying .zshrc"
     mkdir -p ./home/bash
     cp ~/.zshrc ./home/bash/.zshrc
 fi
@@ -32,7 +32,7 @@ fi
 if [ ! -f ~/.config/alacritty/alacritty.toml ]; then
     echo "alacritty.toml: not found, skipping"
 else
-    echo "alacritty.toml: copying"
+    echo "Alacritty: copying alacritty.conf"
     mkdir -p ./.config/alacritty
     cp ~/.config/alacritty/alacritty.toml ./.config/alacritty/alacritty.toml
 fi
@@ -41,7 +41,7 @@ fi
 if [ ! -f ~/.config/conky/conky.conf ]; then
     echo "conky.conf: not found, skipping"
 else
-    echo "conky.conf: copying"
+    echo "Conky: copying conky.conf"
     mkdir -p ./.config/conky
     cp ~/.config/conky/conky.conf ./.config/conky/conky.conf
 fi
@@ -50,7 +50,7 @@ fi
 if [ ! -f ~/.config/kitty/kitty.conf ]; then
     echo "kitty.conf: not found, skipping"
 else
-    echo "kitty.conf: copying"
+    echo "Kitty: copying kitty.conf"
     mkdir -p ./.config/kitty
     cp ~/.config/kitty/kitty.conf ./.config/kitty/kitty.conf
 fi
@@ -59,7 +59,16 @@ fi
 if [ ! -d ~/.config/nvim ]; then
     echo "nvim: directory found, skipping"
 else
-    echo "nvim: copying"
+    echo "nvim: copying config directory"
     mkdir -p ./.config/nvim
     cp -r ~/.config/nvim ./.config/
+fi
+
+# vscodium
+if [ ! -f ~/.config/VSCodium/User/settings.json ]; then
+    echo "VSCodium: settings.json not found, skipping"
+else
+    echo "VSCodium: copying settings.json"
+    mkdir -p ./vscode
+    cp ~/.config/VSCodium/User/settings.json ./vscode/settings.json
 fi

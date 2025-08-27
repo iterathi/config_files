@@ -1,5 +1,2 @@
-Extensions file - extensions.json
-	~/.vscode/extensions/extensions.json
-	
 User settings file - settings.json
-	~/.config/Code/User/settings.json
+	~/.config/VSCodium/User/settings.json

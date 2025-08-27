@@ -6,12 +6,12 @@ WINIT_X11_SCALE_FACTOR = "1"
 dynamic_padding = true
 decorations = "full"
 title = "Alacritty"
-opacity = 0.95
+opacity = 0.85
 decorations_theme_variant = "Dark"
 
 [window.dimensions]
 columns = 125
-lines = 25
+lines = 30
 
 [window.class]
 instance = "Alacritty"
@@ -24,35 +24,34 @@ multiplier = 3
 [colors]
 draw_bold_text_with_bright_colors = false
 
-# Colors (Tokyo Night)
-# Source https//github.com/zatchheems/tokyo-night-alacritty-theme
+# Colours (Monokai Charcoal)
 
-# Default colors
+# Default Colours
 [colors.primary]
-background = '#1a1b26'
-foreground = '#a9b1d6'
+background = '#000000'
+foreground = '#FFFFFF'
 
-# Normal colors
+# Normal Colours
 [colors.normal]
-black   = '#32344a'
-red     = '#f7768e'
-green   = '#9ece6a'
-yellow  = '#e0af68'
-blue    = '#7aa2f7'
-magenta = '#ad8ee6'
-cyan    = '#449dab'
-white   = '#787c99'
+black   = '#1a1a1a'
+red     = '#f4005f'
+green   = '#98e024'
+yellow  = '#fa8419'
+blue    = '#9d65ff'
+magenta = '#f4005f'
+cyan    = '#58d1eb'
+white   = '#c4c5b5'
 
-# Bright colors
+# Bright Colours
 [colors.bright]
-black   = '#444b6a'
-red     = '#ff7a93'
-green   = '#b9f27c'
-yellow  = '#ff9e64'
-blue    = '#7da6ff'
-magenta = '#bb9af7'
-cyan    = '#0db9d7'
-white   = '#acb0d0'
+black   = '#625e4c'
+red     = '#f4005f'
+green   = '#98e024'
+yellow  = '#e0d561'
+blue    = '#9d65ff'
+magenta = '#f4005f'
+cyan    = '#58d1eb'
+white   = '#f6f6ef'
 
 [font]
 size = 11
