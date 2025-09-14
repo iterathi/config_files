@@ -6,7 +6,7 @@
     // Only show line highlight in gutter
     "editor.renderLineHighlight": "gutter",
     // Disable glyph margin
-    //"editor.glyphMargin": false,
+    "editor.glyphMargin": false,
     // Font settings
     //"editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
     //"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
@@ -28,8 +28,6 @@
     "window.title": "${dirty}${activeEditorShort}",
     // Set title bar style - sets correct gtk theme style in Gnome
     "window.titleBarStyle": "native",
-    // Disable custom title bar
-    "window.customTitleBarVisibility": "auto",
     // Set color theme
     "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
     // Set indent guides to onHover
@@ -72,6 +70,7 @@
     "C_Cpp.default.compilerPath": "/usr/bin/g++",
     "workbench.startupEditor": "none",
     "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
         {
@@ -95,5 +94,6 @@
         "backgroundColor": "#ffab00",
         "overviewRulerColor": "rgba(0,0,0,0)",
         "isWholeLine": false,
-    }
+    },
+    "security.workspace.trust.enabled": false
 }
