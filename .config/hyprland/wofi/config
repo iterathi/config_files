@@ -7,3 +7,4 @@ prompt=Search:
 normal_window=false
 allow_images=true
 term=foot
+insensitive=true

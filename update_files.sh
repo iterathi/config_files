@@ -32,7 +32,7 @@ fi
 if [ ! -f ~/.config/alacritty/alacritty.toml ]; then
     echo "alacritty.toml: not found, skipping"
 else
-    echo "Alacritty: copying alacritty.conf"
+    echo "Alacritty: copying alacritty.toml"
     mkdir -p ./.config/alacritty
     cp ~/.config/alacritty/alacritty.toml ./.config/alacritty/alacritty.toml
 fi
@@ -57,7 +57,7 @@ fi
 
 # nvim
 if [ ! -d ~/.config/nvim ]; then
-    echo "nvim: directory found, skipping"
+    echo "nvim: directory not found, skipping"
 else
     echo "nvim: copying config directory"
     mkdir -p ./.config/nvim
@@ -74,7 +74,7 @@ else
 fi
 
 # hyprland
-if [! -f ~/.config/hypr/hyprland.conf ]; then
+if [ ! -f ~/.config/hypr/hyprland.conf ]; then
     echo "hyprland: hyprland.conf not found, skipping all hyprland configs"
 else
     echo "hyprland: copying hyprland.conf, keys.conf, style.conf"
@@ -85,7 +85,7 @@ else
 fi
 
 # hypridle
-if [! -f ~/.config/hypr/hypridle.conf ]; then
+if [ ! -f ~/.config/hypr/hypridle.conf ]; then
     echo "hypridle: hypridle.conf not found, skipping"
 else
     echo "hypridle: copying hypridle.conf"
@@ -94,7 +94,7 @@ else
 fi
 
 # hyprlock
-if [! -f ~/.config/hypr/hyprlock.conf ]; then
+if [ ! -f ~/.config/hypr/hyprlock.conf ]; then
     echo "hyprlock: hyprlock.conf not found, skipping"
 else
     echo "hyprlock: copying hyprlock.conf"
@@ -103,7 +103,7 @@ else
 fi
 
 # hyprpaper
-if [! -f ~/.config/hypr/hyprpaper.conf ]; then
+if [ ! -f ~/.config/hypr/hyprpaper.conf ]; then
     echo "hyprpaper: hyprpaper.conf not found, skipping"
 else
     echo "hyprpaper: copying hyprpaper.conf"
@@ -112,7 +112,7 @@ else
 fi
 
 # hyprpanel
-if [! -f ~/.config/hyprpanel/config.json ]; then
+if [ ! -f ~/.config/hyprpanel/config.json ]; then
     echo "hyprpanel: config.json not found, skipping"
 else
     echo "hyprpanel: copying config.json"
@@ -121,7 +121,7 @@ else
 fi
 
 # wofi
-if [! -f ~/.config/wofi/config ]; then
+if [ ! -f ~/.config/wofi/config ]; then
     echo "wofi: config not found, skipping"
 else
     echo "wofi: copying config, style.css"

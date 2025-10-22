@@ -456,8 +456,7 @@
     "1": {
       "left": [
         "dashboard",
-        "workspaces",
-        "media"
+        "workspaces"
       ],
       "middle": [
         "clock"
@@ -503,5 +502,8 @@
   "bar.workspaces.showAllActive": true,
   "bar.workspaces.numbered_active_indicator": "highlight",
   "theme.bar.buttons.workspaces.smartHighlight": true,
-  "bar.workspaces.workspaces": 8
+  "bar.workspaces.workspaces": 8,
+  "menus.media.hideAuthor": false,
+  "menus.media.hideAlbum": false,
+  "menus.media.displayTime": false
 }
