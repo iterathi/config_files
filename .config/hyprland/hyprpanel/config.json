@@ -505,5 +505,6 @@
   "bar.workspaces.workspaces": 8,
   "menus.media.hideAuthor": false,
   "menus.media.hideAlbum": false,
-  "menus.media.displayTime": false
+  "menus.media.displayTime": false,
+  "notifications.active_monitor": false
 }
