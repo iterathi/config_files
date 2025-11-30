@@ -1,44 +1,39 @@
 {
-    // Disable the minimap
     "editor.minimap.enabled": false,
-    // Render whitespace when a portion of text is selected
     "editor.renderWhitespace": "selection",
-    // Only show line highlight in gutter
-    "editor.renderLineHighlight": "gutter",
-    // Disable glyph margin
+    "editor.renderLineHighlight": "line",
     "editor.glyphMargin": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.lineHeight": 22,
+    "editor.guides.bracketPairs": false,
+    "breadcrumbs.enabled": false,
+    "window.title": "${dirty}${activeEditorShort}",
+    "window.titleBarStyle": "native",
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.guides.indentation": false,
+    "editor.smoothScrolling": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.enabled": false,
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "top",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Default Light Modern",
+    "git.confirmSync": false,
+    "workbench.startupEditor": "none",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+
     // Font settings
-    //"editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
-    //"terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
     "editor.fontFamily": "'RobotoMono Nerd Font Mono', 'monospace'",
     "terminal.integrated.fontFamily": "'RobotoMono Nerd Font Mono'",
     "editor.fontSize": 14,
     "editor.fontWeight": "500",
     "editor.fontLigatures": true,
-    // Caret/cursor settings
-    "editor.cursorBlinking": "phase",
-    "editor.cursorSmoothCaretAnimation": "on",
-    // Line height
-    "editor.lineHeight": 22,
-    // Disable guides for bracket pairs
-    "editor.guides.bracketPairs": false,
-    // Disable breadcrumbs
-    "breadcrumbs.enabled": false,
-    // Set window title settings
-    "window.title": "${dirty}${activeEditorShort}",
-    // Set title bar style - sets correct gtk theme style in Gnome
-    "window.titleBarStyle": "native",
-    // Set color theme
-    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-    // Set indent guides to onHover
-    "workbench.tree.renderIndentGuides": "none",
-    "editor.guides.indentation": false,
-    // Enable smooth scrolling
-    "editor.smoothScrolling": true,
-    // Disable code folding
-    //"editor.folding": false,
-    // Open untrusted files
-    "security.workspace.trust.untrustedFiles": "open",
+    
     // Language specific settings
     "[html]":{
         "editor.tabSize": 2,
@@ -58,19 +53,8 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
-    // Use spaces instead of tabs
-    "editor.insertSpaces": true,
-    // Use Prettier extension for formatting all languages by default
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "window.menuBarVisibility": "toggle",
-    "workbench.activityBar.location": "top",
-    "explorer.confirmDelete": false,
-    "workbench.iconTheme": "vscode-icons",
-    "git.confirmSync": false,
-    "C_Cpp.default.compilerPath": "/usr/bin/g++",
-    "workbench.startupEditor": "none",
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.acceptSuggestionOnCommitCharacter": false,
+    
+    // TODO Highlight settings
     "todohighlight.isEnable": true,
     "todohighlight.keywords": [
         {
@@ -94,6 +78,5 @@
         "backgroundColor": "#ffab00",
         "overviewRulerColor": "rgba(0,0,0,0)",
         "isWholeLine": false,
-    },
-    "security.workspace.trust.enabled": false
+    }
 }
